@@ -44,10 +44,10 @@ tf.app.flags.DEFINE_string('model_num', '100', 'prob')
 
 def print_config():
     FLAGS._parse_flags()
-    print '\nParameters:'
+    print('\nParameters:')
     for k, v in sorted(FLAGS.__flags.items()):
-        print '{}={}'.format(k, v)
-    print
+        print('{}={}'.format(k, v))
+    print()
 
 
 def loss_func(y, prob):

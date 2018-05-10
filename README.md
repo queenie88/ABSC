@@ -63,16 +63,7 @@ Options:
 Give the usage of **lcr.py** for example:
 
 ```
-python model/lcr.py --train_file_path data/absa/laptop/laptop_2014_train.txt
-                    --test_file_path data/absa/laptop/laptop_2014_test.txt
-                    --embedding_file_path data/absa/laptop/laptop_word_embedding_42b.txt
-                    --learning_rate 0.1
-                    --batch_size 25
-                    --n_iter 50
-                    --random_base 0.1
-                    --l2_reg 0.00001
-                    --keep_prob1 0.5
-                    --keep_prob2 0.5
+python model/lcr.py --train_file_path data/absa/laptop/laptop_2014_train.txt --test_file_path data/absa/laptop/laptop_2014_test.txt --embedding_file_path data/absa/laptop/laptop_word_embedding_42b.txt --learning_rate 0.1 --batch_size 25 --n_iter 50 --random_base 0.1 --l2_reg 0.00001 --keep_prob1 0.5 --keep_prob2 0.5
 ```
 
 
